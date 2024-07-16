@@ -103,13 +103,13 @@ def evalue(expression: list[Token] = []):
     return numbers[0]
 
 
-# def main():
-#     expression = input("Enter your expression entirely\nAllowed operatoins: + - * / ^ %\n> ")
+def main():
+    expression = input("Enter your expression entirely\nAllowed operatoins: + - * / ^ %\n> ")
 
-#     print(calculate(expression))
+    print(calculate(expression))
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
 
 # 2 + (1 * 3 + 4) - (3 * (12 ^ (1 * (1 + 1))))
 # = -423
